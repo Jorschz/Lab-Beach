@@ -1,8 +1,13 @@
-<h1 align="center">Projeto Avaliativo</h1>
+#Lab Beach
 
-Uma aplicação API Rest utilizando Spring: boot, MVC, Data e com o uso do PostgreSQL
+##REST API developed in JAVA SPRING as an evaluative project for the SENAI course.
 
-Contem: Cadastro de um bairro não duplicado e sem campos invalidos com: identificador, nome, descrição, população. Podendo cadastrar, listar e excluir.
-Cadastro de praia não duplicado e sem campos invalidos com: identificador, nome, acessibilidade e status (propria ou impropria para banho). Podendo cadastrar, listar, editar, excluir e listar (por status, acessibilidade e população no bairro))
+##Pré-Requisitos
+- Java 8 ou superior
+- Maven
+- Banco de dados (por exemplo: MySQL, PostgreSQL)
 
-pode ser utilizado para fazer um controle das praias que estão proprias para banho e, se precisar, que tenha acessibilidade.
+##Endpoints
+
+###Criar um novo item
+Envie um QUERY 
