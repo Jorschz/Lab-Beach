@@ -1,13 +1,43 @@
-#Lab Beach
+# LabBeach
 
-##REST API developed in JAVA SPRING as an evaluative project for the SENAI course.
+## REST API developed in JAVA SPRING as an evaluative project for the SENAI course.
 
-##Pré-Requisitos
-- Java 8 ou superior
+## Prerequisites
+- Java 8 or higher
 - Maven
-- Banco de dados (por exemplo: MySQL, PostgreSQL)
+- Database (e.g., MySQL, PostgreSQL)
+- Used Insomnia (json file)
 
-##Endpoints
+## Configuration
+- Clone the repository.
+- Configure the database in the 'application.properties' file.
+- Run the application using the file: 'LabbeachApplication'
 
-###Criar um novo item
-Envie um QUERY 
+
+## Endpoints
+
+### To Read all neighborhoods/beaches
+Send a GET request to localhost:server.port/bairro or localhost:server.port/praia
+
+### To create a new neighborhood
+Send a POST request with a Query containing name, description, and visitors
+
+### To create a new beach
+Send a POST request with name, inclusiveness, condition, and neighborhood
+
+### To delete a neighborhood/beach
+Send a DELETE request with the *id*
+
+### To update a beach
+Send a JSON in the request body with the values you want to change
+
+### To read the beach by condition
+Send a get request with /fcondition
+
+### To read the beach by inclusiveness
+Send a get request with /finclusiveness
+
+### To read by visitors
+Send a get request with fvisitors
+
+
