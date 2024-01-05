@@ -6,7 +6,7 @@
 - Java 8 or higher
 - Maven
 - Database (e.g., MySQL, PostgreSQL)
-- Used Insomnia (json file)
+- Insomnia (json file in the folder)
 
 ## Configuration
 - Clone the repository.
